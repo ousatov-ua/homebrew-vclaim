@@ -5,22 +5,22 @@
 class Vet < Formula
   desc "Regex workbench with formal guarantees. automata theory behind a dead-simple c"
   homepage "https://github.com/ousatov-ua/vet"
-  url "https://github.com/ousatov-ua/vet/archive/refs/tags/v0.1.0.tar.gz"
-  version "0.1.0"
-  sha256 "1faf03ae9239af369230f0574656871d80b15a2c425254442c21d3b39f1aa309"
+  url "https://github.com/ousatov-ua/vet/archive/refs/tags/v0.1.1.tar.gz"
+  version "0.1.1"
+  sha256 "07a34d799c1ce648abba3c283605a7f6caada2ba354a3f1c0ecfcf25ef442944"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/ousatov-ua/vet/releases/download/v0.1.0/vet-0.1.0-darwin-arm64.tar.gz"
-      sha256 "3b3cd9798126dc43dbf48891553cb48e0578d0dc30e9f4d3c68995625dedbdf6"
+      url "https://github.com/ousatov-ua/vet/releases/download/v0.1.1/vet-0.1.1-darwin-arm64.tar.gz"
+      sha256 "a518b3b2105eb370829eb0f7343a200100edba7837cf00dccf749c8df12a6b7c"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/ousatov-ua/vet/releases/download/v0.1.0/vet-0.1.0-linux-amd64.tar.gz"
-      sha256 "a10bbf4198726d210674065e1fcf5cb81026d17649a5dffac2f5b414a0323c7c"
+      url "https://github.com/ousatov-ua/vet/releases/download/v0.1.1/vet-0.1.1-linux-amd64.tar.gz"
+      sha256 "e301c810807434c57f6c68440f7d239ef5eaba1555307d55167c9f8015c3c18c"
     end
   end
 
