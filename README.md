@@ -1,2 +1,2 @@
 # homebrew-vet
-Repo for homebrew vet
+Repo for homebrew vclaim
